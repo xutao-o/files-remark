@@ -1,5 +1,5 @@
 # 📝Files Remark - 给目录文件设置备注
-安装地址： [VS Code插件安装（Files Remark）](https://marketplace.visualstudio.com/items?itemName=qiuqiu-xt.files-remark)<br>
+安装地址： [VS Code插件安装（Files Remark）](https://marketplace.visualstudio.com/items?itemName=qiuqiu-xt.files-remark)<br><br>
 ![](https://resource-wangsu.helplook.net/docker_production/kn8ndd/article/9yEr5dyH/6800fb2186301.png)
 
 ## 📖 使用方法
