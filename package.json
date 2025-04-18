@@ -1,0 +1,91 @@
+{
+	"name": "files-remark",
+	"displayName": "Files Remark（文件备注）",
+	"description": "目录文件备注工具，支持在 VSCode 中为文件及文件夹设置备注并显示在目录上。",
+	"version": "1.0.1",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"author": "丘秋",
+	"publisher": "qiuqiu-xt",
+	"keywords": [
+		"file",
+		"folder",
+		"remark",
+		"note",
+		"notes",
+		"文件夹",
+		"文件",
+		"备注",
+		"文件备注",
+        "目录备注",
+		"File Remark",
+		"FilesRemark"
+	],
+	"icon": "image/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xutao-o/files-remark"
+	},
+	"categories": [
+        "Notebooks",
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "addRemark",
+				"title": "★ 设置备注"
+			},
+			{
+				"command": "delRemark",
+				"title": "☆ 清除备注"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "addRemark",
+					"group": "mark"
+				},
+				{
+					"command": "delRemark",
+					"group": "mark"
+				}
+			]
+		},
+		"keybindings": [
+			{
+				"command": "addRemark",
+				"key": "ctrl+m",
+				"mac": "cmd+m",
+				"when": "editorFocus"
+			},
+			{
+				"command": "addRemark",
+				"key": "ctrl+m",
+				"mac": "cmd+m",
+				"when": "!editorFocus"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+        "build": "vsce package -o ./build"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.85.0",
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"eslint": "^8.54.0",
+		"typescript": "^5.3.2",
+		"@vscode/test-cli": "^0.0.4",
+		"@vscode/test-electron": "^2.3.8"
+	},
+	"dependencies": {}
+}
