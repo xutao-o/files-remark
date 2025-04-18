@@ -2,7 +2,7 @@
 ![](https://resource-wangsu.helplook.net/docker_production/kn8ndd/article/9yEr5dyH/6800fb2186301.png)
 
 ## 📖 使用方法
-安装地址： [Files Remark](https://marketplace.visualstudio.com/items?itemName=qiuqiu-xt.files-remark)
+安装地址： [VS Code插件安装（Files Remark）](https://marketplace.visualstudio.com/items?itemName=qiuqiu-xt.files-remark)<br>
 在目录右键给📄文件及📁文件夹设置 `备注`
 
 ![](https://resource-wangsu.helplook.net/docker_production/kn8ndd/article/9yEr5dyH/6800fb2976a69.png)
